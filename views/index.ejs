@@ -65,28 +65,8 @@
 	</head>
 	<body>
 	<div class="box-wrap">
-		<header role="banner" id="fh5co-header">
-			<div class="container">
-				<nav class="navbar navbar-default">
-					<div class="row">
-						<div class="col-md-3">
-							<div class="fh5co-navbar-brand">
-								<a class="fh5co-logo" href="index.html">Narrow</a>
-							</div>
-						</div>
-						<div class="col-md-9 main-nav">
-							<ul class="nav text-right">
-								<li class="active"><a href="index.html"><span>Home</span></a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="product.html">Products</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</nav>
-		  </div>
-		</header>
+		<!-- START: header -->
+		<%- include('partial', {active: "About"}); %>
 		<!-- END: header -->
 		<div class="owl-carousel owl-carousel1 owl-carousel-fullwidth fh5co-light-arrow animate-box" data-animate-effect="fadeIn">
 			<div class="item"><a href="images/img_large_1.jpg" class="image-popup"><img src="images/img_large_1.jpg" alt="image"></a></div>
